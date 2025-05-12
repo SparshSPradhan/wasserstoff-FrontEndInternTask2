@@ -1,0 +1,22 @@
+.layoutContainer {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #1a1a2e, #16213e);
+  }
+  
+  .backgroundOverlay {
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+    padding: 40px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 20px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+  }
+  
+  .contentWrapper {
+    width: 100%;
+  }

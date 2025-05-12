@@ -1,0 +1,65 @@
+.ticketCard {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    padding: 20px;
+    color: white;
+    max-width: 400px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  }
+  
+  .ticketHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .logo {
+    height: 40px;
+  }
+  
+  .eventInfo {
+    font-size: 14px;
+    opacity: 0.7;
+  }
+  
+  .ticketContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .avatarSection {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .avatar, .avatarPlaceholder {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+  
+  .userInfo {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .userName {
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  .userHandle {
+    font-size: 14px;
+    opacity: 0.7;
+  }
+  
+  .ticketNumber {
+    font-size: 24px;
+    font-weight: bold;
+    opacity: 0.5;
+  }
