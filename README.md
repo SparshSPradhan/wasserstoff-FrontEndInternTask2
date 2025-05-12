@@ -92,11 +92,8 @@ function MyComponent() {
 }
 ```
 
-## Testing
-Run tests with:
-```bash
-npm test
-```
+## Live Vercel Deployment Link- https://wasserstoff-front-end-intern-task2-sparsh.vercel.app/
+
 
 ## Constraints
 - No external UI libraries
